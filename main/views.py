@@ -13,7 +13,7 @@ def show_main(request):
     context = {
         'name': 'Hanan Adipratama', # Nama kamu
         'class': 'PBP B', # Kelas PBP kamu
-        'products': products
+        'products': products #product
     }
 
     return render(request, "main.html", context)
